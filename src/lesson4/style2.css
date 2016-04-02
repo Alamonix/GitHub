@@ -1,0 +1,41 @@
+.pager{
+    display: inline-block;
+    border: solid 1px #c0c0c0;
+    background-color: #fafafa;
+    color: #bd66da;
+    font-size: 10px;
+}
+
+.pager span{
+    margin: 8px;
+}
+
+.pager ul{
+    margin: 5px 0;
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+.pager li.number{
+    display: inline-block;
+    border: 1px #e6e6e6 solid;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.pager li.number:hover{
+    display: inline-block;
+    border: 1px #821abf solid;
+    background-color: #a23ccf;
+    padding: 3px 7px;
+    border-radius: 3px;
+    color: white;
+}
+
+.pager li.nonPage{
+    display: inline;
+    padding: 3px 7px;
+    vertical-align: bottom;
+    color: black;
+}
