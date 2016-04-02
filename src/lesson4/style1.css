@@ -1,0 +1,20 @@
+ul.menu{
+    list-style: none;
+    margin: auto;
+    width: 900px;
+    background-color: #a74eff;
+    color: white;
+}
+
+ul.menu li{
+    display: inline-block;
+    padding: 5px 5px;
+    vert-align: middle;
+}
+ul.menu li:hover{
+    display: inline-block;
+    background-color: #eeeeee;
+    color: #aba6a1;
+    padding: 5px 5px;
+    vert-align: middle;
+}
