@@ -18,3 +18,7 @@ ul.menu li:hover{
     padding: 5px 5px;
     vert-align: middle;
 }
+ul.menu li.more{
+    float: right;
+    margin-right: 5px;
+}
