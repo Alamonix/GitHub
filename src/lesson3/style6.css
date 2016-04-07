@@ -1,0 +1,59 @@
+label[for="red"]{
+    text-decoration: underline;
+    color: red;
+}
+
+label[for="green"]{
+    text-decoration: underline;
+    color: green;
+}
+
+label[for="blue"]{
+    text-decoration: underline;
+    color: blue;
+}
+
+.red {
+        font-weight: bold;
+        background: red; /* Цвет фона */
+        color: white; /* Цвет текста */
+        padding: 3px; /* Поля вокруг текста */
+        border-radius: 7px; /* Уголки */
+}
+.blue {
+        font-weight: bold;
+        background: blue; /* Цвет фона */
+        color: white; /* Цвет текста */
+        padding: 3px; /* Поля вокруг текста */
+        border-radius: 7px; /* Уголки */
+}
+.green {
+        font-weight: bold;
+        background: green; /* Цвет фона */
+        color: white; /* Цвет текста */
+        padding: 3px; /* Поля вокруг текста */
+        border-radius: 7px; /* Уголки */
+}
+
+#blue:NOT(:checked) ~ .blue{
+    display: none;
+}
+
+#green:NOT(:checked) ~ .green{
+    display: none;
+}
+
+#red:NOT(:checked) ~ .red{
+    display: none;
+}
+
+input{
+    display: none;
+}
+
+
+
+
+
+
+
