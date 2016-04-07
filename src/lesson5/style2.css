@@ -1,7 +1,7 @@
 .block {
     width: 300px;
     border: #ee822a 4px solid;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.75);
     position: relative;
     border-radius: 4px;
 }
@@ -71,12 +71,12 @@
     background-color: #ee822a;
     color: white;
     margin: 0 auto 30px;
-    box-shadow: 0px 4px 0px 0px rgba(179,87,13,1);
+    box-shadow: 0 4px 0 0 rgba(179,87,13,1);
 }
 .block input[type="button"]:hover{
     background-color: #ee6b00;
 }
 .block input[type="button"]:active{
     transform: translateY(2px);
-    box-shadow: 0px 2px 0px 0px rgba(179,87,13,1);
+    box-shadow: 0 2px 0 0 rgba(179,87,13,1);
 }
